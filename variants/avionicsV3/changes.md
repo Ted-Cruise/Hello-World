@@ -1,0 +1,1 @@
+In `variant.cpp`, Interrupt 3 was changed from PA19 (D9 in Arduino) to PB3 (D8 in Arduino), since PB3 is attached to the LORA IRQ pin, which requires an interrupt.
